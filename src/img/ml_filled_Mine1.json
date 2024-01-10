@@ -1,0 +1,145 @@
+[
+  {
+    "Year": 2010,
+    "Quantity ('000 tonnes)": 1075.0,
+    "GHG Scope 1 (ktCo2e)": 3045.0,
+    "GHG Scope 2 (ktCo2e)": 10867.0,
+    "GHG Scope 3 ktCo2e": 2087.0,
+    "Total Op Energy Consumption (TJ)": 48670.0,
+    "Hazardous Waste (Kt)": 17.249,
+    "Non-Hazardous Waste (Kt)": 153.712,
+    "TRIF": 4.259
+  },
+  {
+    "Year": 2011,
+    "Quantity ('000 tonnes)": 1139.0,
+    "GHG Scope 1 (ktCo2e)": 3233.2,
+    "GHG Scope 2 (ktCo2e)": 12546.4,
+    "GHG Scope 3 ktCo2e": 2154.0,
+    "Total Op Energy Consumption (TJ)": 48670.0,
+    "Hazardous Waste (Kt)": 17.249,
+    "Non-Hazardous Waste (Kt)": 153.712,
+    "TRIF": 4.259
+  },
+  {
+    "Year": 2012,
+    "Quantity ('000 tonnes)": 1468.3,
+    "GHG Scope 1 (ktCo2e)": 3233.2,
+    "GHG Scope 2 (ktCo2e)": 14567.5,
+    "GHG Scope 3 ktCo2e": 2234.0,
+    "Total Op Energy Consumption (TJ)": 47756.0,
+    "Hazardous Waste (Kt)": 17.257,
+    "Non-Hazardous Waste (Kt)": 157.05,
+    "TRIF": 4.252
+  },
+  {
+    "Year": 2013,
+    "Quantity ('000 tonnes)": 1689.4,
+    "GHG Scope 1 (ktCo2e)": 3333.3333333333,
+    "GHG Scope 2 (ktCo2e)": 16466.6666666667,
+    "GHG Scope 3 ktCo2e": 3012.0,
+    "Total Op Energy Consumption (TJ)": 47756.0,
+    "Hazardous Waste (Kt)": 17.5212,
+    "Non-Hazardous Waste (Kt)": 159.75,
+    "TRIF": 4.251
+  },
+  {
+    "Year": 2014,
+    "Quantity ('000 tonnes)": 1727.1,
+    "GHG Scope 1 (ktCo2e)": 3439.3939393939,
+    "GHG Scope 2 (ktCo2e)": 14866.6666666667,
+    "GHG Scope 3 ktCo2e": 3078.0,
+    "Total Op Energy Consumption (TJ)": 47756.0,
+    "Hazardous Waste (Kt)": 17.6296,
+    "Non-Hazardous Waste (Kt)": 160.1556,
+    "TRIF": 4.252
+  },
+  {
+    "Year": 2015,
+    "Quantity ('000 tonnes)": 1708.3,
+    "GHG Scope 1 (ktCo2e)": 3439.3939393939,
+    "GHG Scope 2 (ktCo2e)": 11733.3333333333,
+    "GHG Scope 3 ktCo2e": 3100.0,
+    "Total Op Energy Consumption (TJ)": 46700.0,
+    "Hazardous Waste (Kt)": 17.5866,
+    "Non-Hazardous Waste (Kt)": 159.674,
+    "TRIF": 4.3
+  },
+  {
+    "Year": 2016,
+    "Quantity ('000 tonnes)": 1579.8,
+    "GHG Scope 1 (ktCo2e)": 3136.3636363636,
+    "GHG Scope 2 (ktCo2e)": 4466.6666666667,
+    "GHG Scope 3 ktCo2e": 4200.0,
+    "Total Op Energy Consumption (TJ)": 46700.0,
+    "Hazardous Waste (Kt)": 17.1906,
+    "Non-Hazardous Waste (Kt)": 158.53,
+    "TRIF": 4.2
+  },
+  {
+    "Year": 2017,
+    "Quantity ('000 tonnes)": 1326.0,
+    "GHG Scope 1 (ktCo2e)": 1712.1212121212,
+    "GHG Scope 2 (ktCo2e)": 3866.6666666667,
+    "GHG Scope 3 ktCo2e": 4200.0,
+    "Total Op Energy Consumption (TJ)": 46700.0,
+    "Hazardous Waste (Kt)": 13.1,
+    "Non-Hazardous Waste (Kt)": 137.0,
+    "TRIF": 4.4
+  },
+  {
+    "Year": 2018,
+    "Quantity ('000 tonnes)": 1753.3,
+    "GHG Scope 1 (ktCo2e)": 1470.0,
+    "GHG Scope 2 (ktCo2e)": 4210.0,
+    "GHG Scope 3 ktCo2e": 5200.0,
+    "Total Op Energy Consumption (TJ)": 46700.0,
+    "Hazardous Waste (Kt)": 13.5,
+    "Non-Hazardous Waste (Kt)": 167.0,
+    "TRIF": 4.7
+  },
+  {
+    "Year": 2019,
+    "Quantity ('000 tonnes)": 1689.0,
+    "GHG Scope 1 (ktCo2e)": 1450.0,
+    "GHG Scope 2 (ktCo2e)": 4240.0,
+    "GHG Scope 3 ktCo2e": 5100.0,
+    "Total Op Energy Consumption (TJ)": 46800.0,
+    "Hazardous Waste (Kt)": 15.0,
+    "Non-Hazardous Waste (Kt)": 175.0,
+    "TRIF": 4.2
+  },
+  {
+    "Year": 2020,
+    "Quantity ('000 tonnes)": 1724.0,
+    "GHG Scope 1 (ktCo2e)": 1450.0,
+    "GHG Scope 2 (ktCo2e)": 4260.0,
+    "GHG Scope 3 ktCo2e": 5200.0,
+    "Total Op Energy Consumption (TJ)": 46700.0,
+    "Hazardous Waste (Kt)": 20.42,
+    "Non-Hazardous Waste (Kt)": 178.0,
+    "TRIF": 3.7
+  },
+  {
+    "Year": 2021,
+    "Quantity ('000 tonnes)": 1636.0,
+    "GHG Scope 1 (ktCo2e)": 1390.0,
+    "GHG Scope 2 (ktCo2e)": 4330.0,
+    "GHG Scope 3 ktCo2e": 5000.0,
+    "Total Op Energy Consumption (TJ)": 47600.0,
+    "Hazardous Waste (Kt)": 18.48,
+    "Non-Hazardous Waste (Kt)": 172.36,
+    "TRIF": 4.0
+  },
+  {
+    "Year": 2022,
+    "Quantity ('000 tonnes)": 1574.0,
+    "GHG Scope 1 (ktCo2e)": 1420.0,
+    "GHG Scope 2 (ktCo2e)": 1240.0,
+    "GHG Scope 3 ktCo2e": 1000.0,
+    "Total Op Energy Consumption (TJ)": 49700.0,
+    "Hazardous Waste (Kt)": 13.5,
+    "Non-Hazardous Waste (Kt)": 165.0,
+    "TRIF": 4.5
+  }
+]
