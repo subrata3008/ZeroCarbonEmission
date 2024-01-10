@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,77 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
+/* Color Variables */
+/* #eff3f6 */
+/* Styles */
+body {
+  background: white;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+
 }
+
+
+.text-red {
+    color: red !important;
+  }
+  .text-green {
+    color: green !important;
+  }
+  .text-orange {
+    color: orange !important;
+  }
+  .text-blue {
+    color: blue !important;
+  }
+  /* buttons */
+  .btn-red {
+    background: red;
+    color: white;
+    font-size: xx-small;
+  }
+  .btn-red:hover, .btn-red:focus {
+    background: #d60000;
+    color: white;
+  }
+  .btn-grayblue {
+    background: #acb6c4;
+    color: white;
+    font-size: xx-small;
+  }
+  .btn-grayblue:hover, .btn-grayblue:focus {
+    background: #97a4b5;
+    color: white;
+  }
+
+
+
+
+
+
+
+.main ::-webkit-scrollbar {
+    width: 5px;
+  }
+  .main ::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+  .main ::-webkit-scrollbar-thumb {
+    background: #5d7090;
+    border-radius: 10px;
+  }
+  .main ::-webkit-scrollbar-thumb:hover {
+    background: #495871;
+  }
+
+
+
+
+
+
+
+
+

@@ -3,25 +3,34 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@canvasjs/charts": "^3.7.27",
+    "@canvasjs/react-charts": "^1.0.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
+    "react-data-table-component": "^7.5.4",
     "react-dom": "^18.2.0",
+    "react-iframe": "^1.8.5",
     "react-scripts": "5.0.1",
+    "react-tabs": "^6.0.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build-prd": "cross-env GENERATE_SOURCEMAP=false react-scripts build"
   },
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
     ]
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.1"
   },
   "browserslist": {
     "production": [
