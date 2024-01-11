@@ -43,7 +43,7 @@ function Dashboard(props) {
                 ) : (
           <Tabs>
             <TabList>
-              <Tab>Table View</Tab>
+              {/* <Tab>Table View</Tab> */}
               <Tab>GHG Emission</Tab>
               <Tab>Hazardous -non Hazardous waste</Tab>
               <Tab>Total Op Energy</Tab>
@@ -53,11 +53,11 @@ function Dashboard(props) {
               <div className="container">
                
                   <div className="row">
-                  <TabPanel> 
+                  {/* <TabPanel> 
                     <TableData 
                     selectedData={selectedData} 
                     selectedSubMineData={selectedSubMineData}/>
-                  </TabPanel>
+                  </TabPanel> */}
                     <TabPanel> 
                       <GhgChartComp 
                       selectedData={selectedData} 
