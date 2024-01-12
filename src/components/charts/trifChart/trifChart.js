@@ -66,7 +66,7 @@ function TrifChartComp(props) {
       exportEnabled: false,
       axisY: {
         includeZero: true,
-        suffix: "ktCo2e",
+        suffix: "",
       },
       toolTip: {
         shared: true,

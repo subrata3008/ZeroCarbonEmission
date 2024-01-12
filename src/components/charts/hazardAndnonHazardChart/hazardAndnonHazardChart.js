@@ -66,7 +66,7 @@ function HazardAndnonHazardChartComp(props) {
       exportEnabled: false,
       axisY: {
         includeZero: true,
-        suffix: "ktCo2e",
+        suffix: "Kt",
       },
       toolTip: {
         shared: true,

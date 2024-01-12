@@ -67,7 +67,7 @@ function TotalOpEnergyChartComp(props) {
       exportEnabled: false,
       axisY: {
         includeZero: true,
-        suffix: "ktCo2e",
+        suffix: "TJ",
       },
       toolTip: {
         shared: true,
