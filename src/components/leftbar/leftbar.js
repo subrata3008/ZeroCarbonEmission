@@ -83,10 +83,7 @@ function Leftbar(props) {
               <span className="card-footer text-white clearfix small z-1">
                 <button className="float-right">Submit</button>
               </span>
-              
-            <a className="chat-bot"
-              href="https://susmanager.streamlit.app/" target="_blank" rel="noreferrer" title="Get your query answered"
-              >Chat with Sustainability Assistant</a>
+               
             </div>
           </ul>
         </form>

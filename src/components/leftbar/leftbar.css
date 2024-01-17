@@ -93,13 +93,7 @@
 }
 .selected{
   background-color: #4a8395;
-}
-.chat-bot{
-  color: white;
-  font-size: 8px;
-  text-align: right;
-  margin-top: 3vh;
-}
+} 
 .card{
   background: #6FA9BB !important;
     padding:1% 0.4% 1% 1%;
