@@ -1,7 +1,7 @@
 export const selectionOptions = [
   {
     value: "copper",
-    label: "Copper",
+    label: "Plant / Mine",
     subMine: [
       {
         value: "copperMineOne",
