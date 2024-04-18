@@ -115,14 +115,14 @@
   .container{text-align: center;}
   @media (min-width: 992px) {
     #mainNav .navbar-brand { 
-      width: 65px;
-    background: white;
-    border-radius: 50%;
-    padding: 1%;
-    margin-left: 2%;
+      width: 7vw;
+      background: white;
+      border-radius: 50%;
+      padding: 1%;
+      margin-left: 2%;
     }
     #mainNav img{
-        width: 50px;
+        width: 45px;
         
     }
     #mainNav .navbar-collapse {

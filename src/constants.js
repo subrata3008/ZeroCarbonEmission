@@ -5,24 +5,24 @@ export const selectionOptions = [
     subMine: [
       {
         value: "copperMineOne",
-        label: "Mine 1",
+        label: "EGA Plant Al Taweelah",
       },
       {
         value: "copperMineTwo",
-        label: "Mine 2",
+        label: "EGA Plant Jebel Ali",
       },
       {
         value: "copperMineThree",
-        label: "Mine 3",
+        label: "GAC Mining",
       },
-      {
-        value: "copperMineFour",
-        label: "Mine 4",
-      },
-      {
-        value: "copperMineFive",
-        label: "Mine 5",
-      },
+      // {
+      //   value: "copperMineFour",
+      //   label: "Mine 4",
+      // },
+      // {
+      //   value: "copperMineFive",
+      //   label: "Mine 5",
+      // },
     ],
   },
   {

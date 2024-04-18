@@ -1,6 +1,7 @@
 import React, { useState,useEffect,useRef } from "react";
 import "./dashboard.css";
 import logo from "../../img/logo.png";
+import egaLogo from "../../img/egaLogo.png";
 import chatIcon from "../../img/chat.png";
 import Loader from "../loader/loader";
 import TableData from "../dataTable/dataTable";
@@ -26,7 +27,7 @@ function Dashboard(props) {
           id="mainNav"
         >
           <a className="navbar-brand" href={url}>
-            <img src={logo} data-retina="true" alt="" width="163" height="36" />
+            <img src={egaLogo} data-retina="true" alt="" width="163" height="36" />
           </a>
           <h5>Transition to Zero Carbon Mine</h5>
           <div className="collapse navbar-collapse" id="navbarResponsive"></div>

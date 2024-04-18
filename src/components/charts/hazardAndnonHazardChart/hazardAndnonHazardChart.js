@@ -26,6 +26,20 @@ function HazardAndnonHazardChartComp(props) {
       e.dataSeries.visible = true;
     }
   }
+  
+  const getChartTitle = ()=>{
+    const separatedChartTitle = selectedSubMineData.split(/(?=[A-Z])/);
+    let chartTitle = separatedChartTitle.join(' ');
+    if(selectedSubMineData === 'copperMineOne'){
+      chartTitle = 'EGA Plant Al Taweelah';
+    }else if(selectedSubMineData === 'copperMineTwo'){
+      chartTitle = 'EGA Plant Jebel Ali';
+    }else if(selectedSubMineData === 'copperMineThree'){
+      chartTitle = 'GAC Mining';
+    }
+    return chartTitle;
+  }
+
 
   const dataForHazard = (selectedData) => {
     let hazarDousTable;
@@ -60,7 +74,7 @@ function HazardAndnonHazardChartComp(props) {
     const allKeys = Object.keys(hazarDousDataWIthOutYears[0]);
     const options = {
       title: {
-				text: chartTitle, 
+				text: getChartTitle(), 
 			},
       animationEnabled: true,
       exportEnabled: false,

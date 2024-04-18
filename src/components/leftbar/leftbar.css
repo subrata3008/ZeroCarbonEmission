@@ -21,7 +21,7 @@
 }
 .left ul li {
   list-style-type: none;
-  padding: 5px 8px;
+  padding: 5px 0px;
   font-size: 13px;
   font-weight: 100;
 }
@@ -86,7 +86,7 @@
 }
 .subMenu{
   margin-left: 16%;
-  width: 100px;
+  width: 13vw;
   margin-bottom: 2px;
   background: #6FA9BB;
   cursor: pointer;

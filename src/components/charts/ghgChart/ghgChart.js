@@ -16,6 +16,7 @@ const CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
 function GhgChartComp(props) {
   const { selectedData, selectedSubMineData } = props;
+  console.log(selectedSubMineData);
   const separatedChartTitle = selectedSubMineData.split(/(?=[A-Z])/);
   let firstWord = separatedChartTitle[0].charAt(0).toUpperCase() + separatedChartTitle[0].slice(1);
   separatedChartTitle[0] = firstWord;
@@ -27,6 +28,19 @@ function GhgChartComp(props) {
     } else {
       e.dataSeries.visible = true;
     }
+  }
+
+  const getChartTitle = ()=>{
+    const separatedChartTitle = selectedSubMineData.split(/(?=[A-Z])/);
+    let chartTitle = separatedChartTitle.join(' ');
+    if(selectedSubMineData === 'copperMineOne'){
+      chartTitle = 'EGA Plant Al Taweelah';
+    }else if(selectedSubMineData === 'copperMineTwo'){
+      chartTitle = 'EGA Plant Jebel Ali';
+    }else if(selectedSubMineData === 'copperMineThree'){
+      chartTitle = 'GAC Mining';
+    }
+    return chartTitle;
   }
 
   const dataForGhg = (selectedData) => { 
@@ -64,7 +78,7 @@ function GhgChartComp(props) {
     const allKeys = Object.keys(ghgDataWIthOutYears[0]); 
     const options = {
       title: {
-				text: selectedData === 'coal' ? 'Coal Mine': chartTitle, 
+				text: selectedData === 'coal' ? 'Coal Mine': getChartTitle(), 
 			},
       animationEnabled: true,
       exportEnabled: false,
