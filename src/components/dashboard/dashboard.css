@@ -116,13 +116,15 @@
   @media (min-width: 992px) {
     #mainNav .navbar-brand { 
       width: 7vw;
-      background: white;
+      /* background: white; */
       border-radius: 50%;
       padding: 1%;
       margin-left: 2%;
     }
     #mainNav img{
-        width: 45px;
+      width: 75px;
+      height: 51px;
+      border-radius: 51%;
         
     }
     #mainNav .navbar-collapse {
