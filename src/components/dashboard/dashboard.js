@@ -30,7 +30,7 @@ function Dashboard(props) {
           <a className="navbar-brand" href={url}>
             <img src={sitelogo} data-retina="true" alt="" width="163" height="36" />
           </a>
-          <h5>Transition to Zero Carbon Mine</h5>
+          <h5>Transition to Zero Carbon Plant / Mine <br></br>(Illustrative)</h5>
           <div className="collapse navbar-collapse" id="navbarResponsive"></div>
         </nav>
 
