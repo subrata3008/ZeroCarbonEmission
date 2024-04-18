@@ -37,7 +37,7 @@ function Dashboard(props) {
           <div className={!showLoader && !shouldShowData ? "content withSpace": "content"}>
           {!showLoader && !shouldShowData ? (
             <>
-            <img src={logo} data-retina="true" alt="" width="193" height="156" style={{opacity:.5}} />
+            <img src={egaLogo} data-retina="true" alt="" width="450" height="156" style={{opacity:.5}} />
             <p>Please select filter from left panel to show data</p>
             </>
                   // <Loader />
