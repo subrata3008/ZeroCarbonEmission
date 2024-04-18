@@ -25,24 +25,24 @@ export const selectionOptions = [
       // },
     ],
   },
-  {
-    value: "coal",
-    label: "Coal",
-  },
-  {
-    value: "iron",
-    label: "Iron",
-    subMine: [
-      {
-        value: "ironMineOne",
-        label: "Mine 1",
-      },
-      {
-        value: "ironMineTwo",
-        label: "Mine 2",
-      },
-    ],
-  },
+  // {
+  //   value: "coal",
+  //   label: "Coal",
+  // },
+  // {
+  //   value: "iron",
+  //   label: "Iron",
+  //   subMine: [
+  //     {
+  //       value: "ironMineOne",
+  //       label: "Mine 1",
+  //     },
+  //     {
+  //       value: "ironMineTwo",
+  //       label: "Mine 2",
+  //     },
+  //   ],
+  // },
   // {
   //   value: "mining",
   //   label: "All Mining",
